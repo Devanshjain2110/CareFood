@@ -2,7 +2,7 @@
 const nextConfig = {
   env: {
     BASE_URL : "https://carefood-cors.vercel.app/",
-    KINDE_SITE_URL: "http://localhost:3000",
+    KINDE_SITE_URL: "https://care-food.vercel.app",
 
 },
 images: {

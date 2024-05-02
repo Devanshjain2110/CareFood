@@ -189,7 +189,7 @@ function Page() {
                 }),
               },
             );
-            console.log({ data });
+        
           }}
         >
           Place Order

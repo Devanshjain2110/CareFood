@@ -54,7 +54,7 @@ export default function Page() {
         contact: values.contact.toString(),
       },
     );
-    console.log({ data });
+ form.reset()
   }
 
   return (
