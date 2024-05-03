@@ -21,6 +21,7 @@ import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import { useKindeBrowserClient } from "@kinde-oss/kinde-auth-nextjs";
 import { Ngo } from "@prisma/client";
+import toast from "react-hot-toast";
 function Page() {
   const { user } = useKindeBrowserClient();
 
@@ -189,7 +190,7 @@ function Page() {
                 }),
               },
             );
-        
+            toast.success("Order Placed Successfully");
           }}
         >
           Place Order
