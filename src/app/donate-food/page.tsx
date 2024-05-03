@@ -107,9 +107,12 @@ export default function Page() {
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      <SelectItem value="m@example.com">NGO 1</SelectItem>
-                      <SelectItem value="m@google.com">NGO 2</SelectItem>
-                      <SelectItem value="m@support.com">NGO 3</SelectItem>
+                      <SelectItem value="m@example.com">Delhi Langar Seva Society</SelectItem>
+                      <SelectItem value="m@google.com">Sympathy Foundation Bhopal</SelectItem>
+                      <SelectItem value="m@support.com">Feeding India</SelectItem>
+                      <SelectItem value="m@support.com">Uday Foundation</SelectItem>
+                      <SelectItem value="m@support.com">Jansamvedna Manav Sewa NGO Bhopal</SelectItem>
+                      <SelectItem value="m@support.com">Akshaya Patra Foundation</SelectItem>
                     </SelectContent>
                   </Select>
                   <FormMessage />
