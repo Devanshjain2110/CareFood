@@ -20,6 +20,9 @@ export default function DropDownAccountMenu({ name }: { name: string }) {
         <DropdownMenuItem className="hover:cursor-pointer">
           <Link href={"/register-ngo"}>Register NGO</Link>
         </DropdownMenuItem>
+        <DropdownMenuItem className="hover:cursor-pointer">
+          <Link href={"/donate-food"}>Dontae Food</Link>
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );
