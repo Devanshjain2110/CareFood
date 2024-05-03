@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import axios from "axios";
+import { toast } from "react-hot-toast";
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -47,6 +48,7 @@ export default function Page() {
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
+    toast.success("NGO Registered Successfully!");
     const { data } = await axios.post(
       `${process.env.KINDE_SITE_URL}/api/ngo/register`,
       {
